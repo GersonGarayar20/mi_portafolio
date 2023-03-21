@@ -1,0 +1,42 @@
+export const projects = [
+  {
+    title: "Tienda Online",
+    description: "tienda online de gorras",
+    url: "https://tienda-online-amber.vercel.app/",
+    github: "https://github.com/GersonGarayar20/tienda-online",
+    imagen: "projects/tienda-gorras.jpg",
+    tags: ["react", "tailwind"],
+  },
+  {
+    title: "CompuSalas",
+    description: "e-commerce de componentes para computadoras",
+    url: "https://e-commerce-ecru-alpha.vercel.app/",
+    github: "https://github.com/GersonGarayar20/e-commerce",
+    imagen: "projects/compusalas-ecommerce.png",
+    tags: ["react", "typescript", "tailwind"],
+  },
+  {
+    title: "Nike e-commerce",
+    description: "e-commerce de zapatillas nike",
+    url: "https://nike-ecommerce-pink.vercel.app/",
+    github: "https://github.com/GersonGarayar20/nike-ecommerce",
+    imagen: "projects/nike-ecommerce.png",
+    tags: ["vue", "nuxt", "tailwind"],
+  },
+  {
+    title: "Shop",
+    description: "tienda de ropa",
+    url: "https://ecomerce-frontend.vercel.app/",
+    github: "https://github.com/devSalas/ecomerce-frontend",
+    imagen: "projects/shop-ecommerce.png",
+    tags: ["react", "typescript", "tailwind"],
+  },
+  {
+    title: "Giffy",
+    description: "buscador de git",
+    url: "https://giffy-ts.netlify.app/",
+    github: "https://github.com/GersonGarayar20/giffy",
+    imagen: "projects/giffy.png",
+    tags: ["react", "typescript"],
+  },
+];
