@@ -13,7 +13,7 @@ export default function CardProject({
       <div>
         <a href={url} target="_blank" rel="noopener noreferrer">
           <img
-            className="bg-sky-300 aspect-video object-cover object-top w-full h-full rounded"
+            className="aspect-video object-cover object-top w-full h-full rounded-xl"
             src={imagen}
             alt={title}
           />
