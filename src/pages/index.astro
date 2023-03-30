@@ -6,21 +6,27 @@ import Projects from "../layouts/Projects.astro";
 ---
 
 <Layout title="Gerson Garayar - Frontend Developer">
-  <img class="fixed w-full h-screen -z-10 object-cover" src="bg.jpg" alt="bg" />
+  <img class="absolute w-full h-screen -z-10 object-cover" src="bg.jpg" alt="bg" />
 
   <header class="bg-gradient-to-t from-black to-transparent">
-    <section class="max-w-6xl m-auto px-12">
+    <div class="max-w-6xl m-auto px-4 md:px-8">
       <Home />
-    </section>
+    </div>
   </header>
+
   <main class="bg-black">
-    <section class="max-w-6xl m-auto px-2 md:px-12">
+    <div class="max-w-6xl m-auto px-4 md:px-8">
       <Projects />
-    </section>
+    </div>
   </main>
-  <footer class="bg-neutral-900">
-    <Footer />
+
+  <footer class="bg-black">
+    <div class="max-w-6xl m-auto px-4 md:px-8">
+      <Footer />
+    </div>
   </footer>
+
+  
 </Layout>
 
 <style>

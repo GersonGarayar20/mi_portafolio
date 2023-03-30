@@ -13,35 +13,33 @@ export default function CardProject({
       <div>
         <a href={url} target="_blank" rel="noopener noreferrer">
           <img
-            className="aspect-video object-cover object-top w-full h-full rounded-xl"
+            className="aspect-video object-cover object-top w-full h-full rounded"
             src={imagen}
             alt={title}
           />
         </a>
       </div>
-      <div className="flex flex-col p-8">
-        <div className="flex-1">
-          <h3 className="text-neutral-200 text-2xl font-bold text-center mb-2">
-            {title}
-          </h3>
-          <p className="text-neutral-400 text-center mb-2">{description}</p>
-          <ul className="flex justify-center gap-2">
-            {tags.map((tag) => (
-              <li className="bg-neutral-800 text-neutral-400 rounded text-sm px-2 py-1">
-                {tag}
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="flex justify-center gap-2">
+      <div className="py-4">
+        <h3 className="text-neutral-200 text-xl font-bold mb-2">
+          {title}
+        </h3>
+        <p className="text-neutral-400 mb-2">{description}</p>
+        <ul className="flex gap-2">
+          {tags.map((tag) => (
+            <li className="bg-neutral-800 text-neutral-400 rounded text-sm px-2 py-1">
+              {tag}
+            </li>
+          ))}
+        </ul>
+        <div className="flex gap-4 py-4">
           <a
             href={url}
             title="Ver proyecto"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="flex items-center gap-2 group p-2">
-              <span className="text-xl text-neutral-400 group-hover:text-cyan-500">
+            <div className="flex items-center gap-2 group">
+              <span className="text-lg text-neutral-400 group-hover:text-cyan-400">
                 Live Demo
               </span>
               <LinkIcon />
@@ -53,8 +51,8 @@ export default function CardProject({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="flex items-center gap-2 group p-2">
-              <span className="text-xl text-neutral-400 group-hover:text-cyan-500">
+            <div className="flex items-center gap-2 group">
+              <span className="text-lg text-neutral-400 group-hover:text-cyan-400">
                 Code
               </span>
               <GithubIcon />
@@ -68,7 +66,7 @@ export default function CardProject({
 
 const LinkIcon = () => (
   <svg
-    className="fill-neutral-400 group-hover:fill-cyan-500"
+    className="fill-neutral-400 group-hover:fill-cyan-400"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -81,7 +79,7 @@ const LinkIcon = () => (
 
 const GithubIcon = () => (
   <svg
-    className="fill-neutral-400 group-hover:fill-cyan-500"
+    className="fill-neutral-400 group-hover:fill-cyan-400"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
