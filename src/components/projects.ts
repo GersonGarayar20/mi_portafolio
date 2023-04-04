@@ -5,7 +5,7 @@ export const projects = [
     url: "https://tienda-online-amber.vercel.app/",
     github: "https://github.com/GersonGarayar20/tienda-online",
     imagen: "projects/tienda-gorras.jpg",
-    tags: ["react", "tailwind"],
+    tags: ["react", "tailwind", "supabase"],
   },
   {
     title: "Nike e-commerce",
@@ -13,7 +13,7 @@ export const projects = [
     url: "https://nike-ecommerce-pink.vercel.app/",
     github: "https://github.com/GersonGarayar20/nike-ecommerce",
     imagen: "projects/nike-ecommerce.jpg",
-    tags: ["vue", "nuxt", "tailwind"],
+    tags: ["vue", "nuxt", "tailwind", "prisma"],
   },
   {
     title: "CompuSalas",

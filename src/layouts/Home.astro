@@ -4,12 +4,21 @@ import Redes from "../components/Redes.astro";
 
 <div
   id="home"
-  class="w-full h-screen py-8 md:py-16 flex flex-col gap-8 justify-center"
+  class="w-full h-screen py-8 md:py-16 flex flex-col gap-8 justify-center relative"
 >
-  <h1 class="md:text-7xl text-5xl font-semibold text-neutral-200">
-    Gerson Garayar<br />
-    <span>Frontend Developer</span>
-  </h1>
+
+
+
+
+<div class="relative">
+    <div class="absolute -top-20 -left-20 w-96 h-96 bg-cyan-900 blur-3xl -z-10 rounded-full"></div>
+    <h1 class="md:text-7xl text-5xl font-semibold text-neutral-200">
+      Gerson Garayar<br />
+      <span>Frontend Developer</span>
+    </h1>
+  </div>
+
+  <p class="text-neutral-400 text-lg">+1 años de Experiencia en desarrollo web con pasión por seguir aprendiendo.</p>
 
   <div>
     <Redes />
