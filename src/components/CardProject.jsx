@@ -13,7 +13,7 @@ export default function CardProject({
       <div className="overflow-hidden rounded">
         <a href={url} target="_blank" rel="noopener noreferrer">
           <img
-            className="aspect-video object-cover object-top w-full h-full hover:scale-105 transition-all"
+            className="object-cover w-full h-full hover:scale-105 transition-all duration-200 ease-out"
             src={imagen}
             alt={title}
           />

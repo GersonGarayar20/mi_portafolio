@@ -3,28 +3,40 @@ import Footer from "../layouts/Footer.astro";
 import Home from "../layouts/Home.astro";
 import Layout from "../layouts/Layout.astro";
 import Projects from "../layouts/Projects.astro";
+
+/*
+  agregar about 
+  agregar experimentos
+  agregar skills
+  agregar contactos
+  agregar mi stack
+  agregar nav
+  agregar menu
+*/
 ---
 
 <Layout title="Gerson Garayar - Frontend Developer">
-  <img class="absolute w-full h-screen -z-10 object-cover" src="bg.jpg" alt="bg" />
-  
+  <img
+    class="absolute w-full h-screen -z-10 object-cover"
+    src="bg.jpg"
+    alt="bg"
+  />
+
   <header class="bg-gradient-to-t from-black to-transparent">
     <div class="max-w-6xl m-auto px-4 md:px-8">
       <Home />
     </div>
   </header>
-  
+
   <main class="bg-black backdrop-blur">
     <div class="max-w-6xl m-auto px-4 md:px-8">
       <Projects />
     </div>
   </main>
-  
+
   <footer class="bg-black">
     <div class="max-w-6xl m-auto px-4 md:px-8">
       <Footer />
     </div>
   </footer>
-
-
 </Layout>
