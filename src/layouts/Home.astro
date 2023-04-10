@@ -6,12 +6,12 @@ import Redes from "../components/Redes.astro";
   id="home"
   class="w-full h-screen py-8 md:py-16 flex flex-col gap-8 justify-center"
 >
-  <h1 class="md:text-7xl text-5xl font-semibold text-neutral-200">
+  <h1 class="md:text-7xl text-5xl font-semibold text-base-content">
     Gerson Garayar<br />
     <span>Frontend Developer</span>
   </h1>
 
-  <p class="text-neutral-400 text-lg">
+  <p class="text-neutral-content text-lg">
     +1 año de experiencia en desarrollo web.
   </p>
 
@@ -39,13 +39,13 @@ import Redes from "../components/Redes.astro";
 
   @keyframes animate {
     0% {
-      @apply text-cyan-400;
+      @apply text-primary;
     }
     50% {
-      @apply text-teal-400;
+      @apply text-secondary;
     }
     100% {
-      @apply text-cyan-400;
+      @apply text-primary;
     }
   }
 </style>

@@ -22,15 +22,15 @@ export default function CardProject({
       <div className="py-4">
         <ul className="flex gap-2 mb-2">
           {tags.map((tag, i) => (
-            <li key={i} className="text-cyan-500 text-sm">
+            <li key={i} className="text-secondary text-sm">
               #{tag}
             </li>
           ))}
         </ul>
-        <h3 className="text-neutral-200 text-xl font-bold ">
+        <h3 className="text-base-content text-xl font-bold ">
           {title}
         </h3>
-        <p className="text-neutral-400">{description}</p>
+        <p className="text-neutral-content">{description}</p>
         <div className="flex gap-4 py-4">
           <a
             href={url}
@@ -39,7 +39,7 @@ export default function CardProject({
             rel="noopener noreferrer"
           >
             <div className="flex items-center gap-2 group">
-              <span className="text-lg text-neutral-400 group-hover:text-cyan-500">
+              <span className="text-lg text-primary group-hover:text-primary-focus">
                 Live Demo
               </span>
               <LinkIcon />
@@ -52,7 +52,7 @@ export default function CardProject({
             rel="noopener noreferrer"
           >
             <div className="flex items-center gap-2 group">
-              <span className="text-lg text-neutral-400 group-hover:text-cyan-500">
+              <span className="text-lg text-primary group-hover:text-primary-focus">
                 Code
               </span>
               <GithubIcon />
@@ -66,7 +66,7 @@ export default function CardProject({
 
 const LinkIcon = () => (
   <svg
-    className="fill-neutral-400 group-hover:fill-cyan-500"
+    className="fill-primary group-hover:fill-primary-focus"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -79,7 +79,7 @@ const LinkIcon = () => (
 
 const GithubIcon = () => (
   <svg
-    className="fill-neutral-400 group-hover:fill-cyan-500"
+    className="fill-primary group-hover:fill-primary-focus"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
